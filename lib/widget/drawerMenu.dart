@@ -1,7 +1,8 @@
 import 'package:ecology_app/pages/acerca.dart';
+import 'package:ecology_app/pages/chats.dart';
 import 'package:ecology_app/pages/configuraciones.dart';
 import 'package:ecology_app/pages/crearPublicaciones.dart';
-import 'package:ecology_app/pages/foro.dart';
+
 import 'package:ecology_app/pages/home.dart';
 import 'package:ecology_app/pages/perfil.dart';
 import 'package:flutter/material.dart';
@@ -21,7 +22,7 @@ class _DrawerMenuState extends State<DrawerMenu> {
       case 0:
         return Home();
       case 1:
-        return ForoPage();
+        return Chats();
       case 2:
         return Publicaciones();
       case 3:
@@ -73,7 +74,7 @@ class _DrawerMenuState extends State<DrawerMenu> {
               },
             ),
             ListTile(
-              title: Text('Foro'),
+              title: Text('Chats'),
               leading: Icon(Icons.comment),
               selected: (1 == _selectDrawerItem),
               onTap: () {
