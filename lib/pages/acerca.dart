@@ -25,7 +25,7 @@ class Acerca extends StatelessWidget {
             ),
             SizedBox(height: 20.0),
             Text(
-              'Diseño inicial de la propuesta para la app Ecology app, la cual esta creada para la conciencia ecologica de los usuarios',
+              'Diseño inicial de la propuesta para la app Ecology App, la cual esta creada para la conciencia ecologica de los usuarios',
               style: TextStyle(fontSize: 15.0),
               textAlign: TextAlign.center,
             ),
